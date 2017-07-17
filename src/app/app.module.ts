@@ -22,10 +22,14 @@ import { RegisterComponent } from './components/register/register.component';
 import { SettingsComponent } from './components/settings/settings.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 // Service Imports
-import { ClientService } from './services/client.service';const appRoutes: Routes = [
-  {path:'', component:DashboardComponent},
-  {path:'register', component:RegisterComponent},
-  {path:'login', component:LoginComponent},
+import { ClientService } from './services/client.service';
+import { AuthService } from './services/auth.service';
+
+
+const appRoutes: Routes = [
+  { path:'', component:DashboardComponent },
+  { path:'register', component:RegisterComponent },
+  { path:'login', component:LoginComponent },
   { path:'add-client', component:AddClientComponent },
   { path:'client/:id', component: ClientDetailsComponent },
   { path:'edit-client/:id', component: EditClientComponent }
@@ -64,7 +68,8 @@ export const firebaseConfig = {
   providers: [
     AngularFireAuth,
     AngularFireDatabase,
-    ClientService
+    ClientService,
+    AuthService
   ],
   bootstrap: [AppComponent]
 })
