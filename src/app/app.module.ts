@@ -22,13 +22,12 @@ import { RegisterComponent } from './components/register/register.component';
 import { SettingsComponent } from './components/settings/settings.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 // Service Imports
-import { ClientService } from './services/client.service';
-
-const appRoutes: Routes = [
+import { ClientService } from './services/client.service';const appRoutes: Routes = [
   {path:'', component:DashboardComponent},
   {path:'register', component:RegisterComponent},
   {path:'login', component:LoginComponent},
-  { path:'add-client', component:AddClientComponent }
+  { path:'add-client', component:AddClientComponent },
+  { path:'client/:id', component: ClientDetailsComponent }
 ];
 
 export const firebaseConfig = {
