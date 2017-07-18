@@ -46,7 +46,7 @@ Firebase to store my data
 
 #### I also imported the Angular-Flash-Messages which throws you an error if a specific field is empty
 
-![errors](images/errors.png)
+![errors](images/errors-e.png)
 
 
 
