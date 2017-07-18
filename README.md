@@ -30,19 +30,19 @@ Firebase to store my data
 
 #### User can add client
 
-![add-client](images/add-client.png)
+![add-client](images/add-client-panel.png)
 
-#### In the dashboard you have all the clients displayed with there info and the specific ID
+#### In the dashboard you have all the clients info displayed and the specific ID
 
-![clients](images/client-panel.png)
+![clients](images/all-clients.png)
 
 #### You can see a edit or delete a client by pressing the 'Details' button
 
-![client-edit](images/client-details.png)
+![client-edit](images/edit-the-clients.png)
 
 #### You can customize the balance and register display by going to "Settings"
 
-![settings](images/settingspanel.png)
+![settings](images/settings-panel.png)
 
 #### I also imported the Angular-Flash-Messages which throws you an error if a specific field is empty
 
