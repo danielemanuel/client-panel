@@ -2,26 +2,53 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
 
-## Development server
+#### User stories
+
+![user-stories](images/user-stories.png)
+
+### Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+### Project summary
+* I build the project using Angular 4 as a front-end and I used
+Firebase to store my data
+* I used AngularFire 2 library to connect with Firebase
+* For authentication process I used AngularFireAuth which allows you to login and logout your users
+* The project is structured in numerous components for keeping the code clean and easy to follow
+* Version control used: Git
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+### Project functionality
 
-## Build
+#### User can register
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+  ![registerpanel](images/register-panel.png)
 
-## Running unit tests
+#### User can login
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![login](images/login-panel.png)
 
-## Running end-to-end tests
+#### User can add client
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+![add-client](images/add-client.png)
+
+#### In the dashboard you have all the clients displayed with there info and the specific ID
+
+![clients](images/client-panel.png)
+
+#### You can see a edit or delete a client by pressing the 'Details' button
+
+![client-edit](images/client-details.png)
+
+#### You can customize the balance and register display by going to "Settings"
+
+![settings](images/settingspanel.png)
+
+#### I also imported the Angular-Flash-Messages which throws you an error if a specific field is empty
+
+![errors](images/errors.png)
+
+
 
 ## Further help
 
